@@ -1,4 +1,4 @@
-import { Card, Grid, Paper, Skeleton, Typography } from "@mui/material";
+import { Card, Grid, Paper, Typography } from "@mui/material";
 import Iframe from "react-iframe";
 import GridItemWrapper from "../GridItemWrapper";
 export default class WeatherListItem extends GridItemWrapper {
