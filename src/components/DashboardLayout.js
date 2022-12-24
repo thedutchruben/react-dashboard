@@ -4,8 +4,6 @@ import { Box } from "@mui/system";
 import { useState } from "react";
 import { Responsive, WidthProvider } from "react-grid-layout";
 
-import WeatherListItem from "./items/WeatherListItem";
-import WeatherMapItem from "./items/WeatherMapItem";
 import "/node_modules/react-grid-layout/css/styles.css";
 import "/node_modules/react-resizable/css/styles.css";
 
@@ -47,9 +45,6 @@ export default function DashboardLayout({ widgets }) {
   const toggleEditMode = () => {
     setEditMode(!editMode);
   };
-
-  const widgetList = [...widgets];
-  widgetList.push(new WeatherMapItem(), new WeatherListItem());
 
   return (
     <>
