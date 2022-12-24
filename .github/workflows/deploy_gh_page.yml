@@ -18,5 +18,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: git config --global user.email "deroosruben@gmail.com"
+      - run: git config --global user.name "Tdr Dashboard"
       - run: yarn install
       - run: yarn deploy
