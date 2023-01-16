@@ -47,6 +47,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "husky": "^8.0.2"
+    "husky": "^8.0.3"
   }
 }
